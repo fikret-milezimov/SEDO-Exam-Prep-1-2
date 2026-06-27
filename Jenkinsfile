@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Dotnet restore') {
+        stage('Dotnet Restore') {
           
                 
 
