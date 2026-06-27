@@ -5,7 +5,7 @@ pipeline {
         stage('Dotnet restore') {
           
                 
-}
+
             steps {
                 bat 'dotnet restore'
             }
@@ -13,7 +13,7 @@ pipeline {
         stage('Dotnet build') {
           
                 
-}
+
             steps {
                 bat 'dotnet build --no-restore'
             }
@@ -21,7 +21,7 @@ pipeline {
         stage('Dotnet test') {
            
                 
-}
+
             steps {
                 bat 'dotnet test --no-build --verbosity normal'
             }
